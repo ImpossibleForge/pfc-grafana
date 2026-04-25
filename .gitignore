@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.angular/
+coverage/
+*.pfc
+*.bidx
+*.jsonl
+.env
+*.log
+playwright-report/
+test-results/
