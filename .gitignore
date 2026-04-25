@@ -9,3 +9,6 @@ coverage/
 *.log
 playwright-report/
 test-results/
+.pfc_buffer.jsonl
+.pfc_buffer.compressing
+
