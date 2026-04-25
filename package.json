@@ -1,5 +1,5 @@
 {
-  "name": "pfc-jsonl",
+  "name": "pfc-grafana",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack -c ./.config/webpack/webpack.config.ts --env production",
@@ -14,7 +14,7 @@
     "sign": "npx --yes @grafana/sign-plugin@latest"
   },
   "author": "Impossibleforge",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "devDependencies": {
     "@grafana/eslint-config": "^9.0.0",
     "@grafana/plugin-e2e": "^3.6.1",
@@ -77,3 +77,4 @@
   },
   "packageManager": "npm@10.8.2"
 }
+
