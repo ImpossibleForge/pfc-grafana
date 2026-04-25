@@ -1,0 +1,24 @@
+{
+  "type": "datasource",
+  "name": "PFC-JSONL",
+  "id": "impossibleforge-pfc-jsonl-datasource",
+  "info": {
+    "description": "Query PFC-JSONL cold archives directly from Grafana via pfc-gateway",
+    "author": {
+      "name": "ImpossibleForge",
+      "url": "https://github.com/ImpossibleForge"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "version": "1.0.0",
+    "updated": "2026-04-25"
+  },
+  "includes": [],
+  "dependencies": {
+    "grafanaDependency": ">=9.0.0",
+    "plugins": []
+  }
+}
+
