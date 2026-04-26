@@ -1,0 +1,35 @@
+{
+  "type": "datasource",
+  "name": "PFC-JSONL",
+  "id": "impossibleforge-pfc-datasource",
+  "info": {
+    "description": "Query PFC-JSONL cold archives via pfc-gateway. Block-level timestamp filtering — only relevant data is decompressed.",
+    "author": {
+      "name": "ImpossibleForge",
+      "url": "https://github.com/ImpossibleForge"
+    },
+    "keywords": ["pfc", "pfc-jsonl", "logs", "metrics", "cold storage", "compression", "archive"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/ImpossibleForge/pfc-grafana" },
+      { "name": "pfc-gateway", "url": "https://github.com/ImpossibleForge/pfc-gateway" },
+      { "name": "PFC-JSONL", "url": "https://github.com/ImpossibleForge/pfc-jsonl" }
+    ],
+    "version": "0.1.0",
+    "updated": "2026-04-25"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.0.0",
+    "grafanaVersion": "10.0.0",
+    "plugins": []
+  },
+  "backend": false,
+  "annotations": true,
+  "metrics": true,
+  "logs": true,
+  "alerting": false,
+  "streaming": false
+}
