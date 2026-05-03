@@ -121,18 +121,13 @@ Telegraf → pfc-telegraf:8767 → .pfc files on /var/lib/pfc/
 
 ---
 
-## Related Projects
+## Part of the PFC Ecosystem
 
-| Project | Role |
+**[→ View all PFC tools & integrations](https://github.com/ImpossibleForge/pfc-jsonl#ecosystem)**
+
+| Direct integration | Why |
 |---|---|
-| [pfc-jsonl](https://github.com/ImpossibleForge/pfc-jsonl) | Core compression binary |
-| [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) | HTTP query + ingest API (required) |
-| [pfc-duckdb](https://github.com/ImpossibleForge/pfc-duckdb) | DuckDB community extension |
-| [pfc-fluentbit](https://github.com/ImpossibleForge/pfc-fluentbit) | Fluent Bit → PFC |
-| [pfc-vector](https://github.com/ImpossibleForge/pfc-vector) | Vector.dev → PFC |
-| [pfc-telegraf](https://github.com/ImpossibleForge/pfc-telegraf) | Telegraf → PFC |
-| [pfc-otel-collector](https://github.com/ImpossibleForge/pfc-otel-collector) | OpenTelemetry → PFC |
-| [pfc-kafka-consumer](https://github.com/ImpossibleForge/pfc-kafka-consumer) | Kafka → PFC |
+| [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) | Required backend — pfc-grafana queries pfc-gateway to read `.pfc` archives |
 
 ---
 
