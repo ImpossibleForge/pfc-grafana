@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Grafana](https://img.shields.io/badge/Grafana-10%2B-orange.svg)](https://grafana.com)
-[![PFC-JSONL](https://img.shields.io/badge/pfc--jsonl-v3.4.4-blue.svg)](https://github.com/ImpossibleForge/pfc-jsonl)
+[![PFC-JSONL](https://img.shields.io/badge/pfc--jsonl-green.svg)](https://github.com/ImpossibleForge/pfc-jsonl)
 
 Visualize historical logs and metrics stored as `.pfc` archives in Grafana — without loading them into a database. Block-level timestamp filtering means only the relevant data is decompressed.
 
