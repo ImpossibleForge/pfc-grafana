@@ -33,6 +33,7 @@ Telegraf / Fluent Bit / Vector
 - [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) v0.3.0+ running
 - Grafana 10.0+
 - `.pfc` archives created by any PFC ingest tool (pfc-fluentbit, pfc-vector, pfc-telegraf, etc.)
+- `pfc_jsonl` binary installed **on the machine running pfc-gateway** — [install instructions →](https://github.com/ImpossibleForge/pfc-gateway#installation) (Linux x64, macOS Apple Silicon, macOS Intel, Windows)
 
 ---
 
